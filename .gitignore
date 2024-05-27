@@ -1,2 +1,9 @@
-*.ico
+# ignore icons in the root directory
 *.png
+*.ico
+
+# but KEEP screenshots
+!screenshots/*
+
+# ignore shortcuts
+*.lnk

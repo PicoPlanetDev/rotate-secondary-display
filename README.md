@@ -17,5 +17,8 @@ This argument can be passed with `-d` or `--display` and should be an integer, w
 
 1. Test `toggle.py` in the terminal.
 2. Optionally edit the script to reflect the rotation angles you need.
-3. Create a shortcut to `toggle.py` including appropriate arguments
-4. Place the shortcut on your desktop or taskbar, and maybe give it an icon!
+3. Create a shortcut to `toggle.py` including appropriate arguments. The shortcut target should look something like this: `PATH\TO\python.exe "PATH\TO\toggle.py" --display 1`
+4. Copy the shortcut to your desktop, start menu, or taskbar, and maybe give it an icon!
+
+**Example shortcut:**
+![Example shortcut screenshot](screenshots/shortcut.png)
