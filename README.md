@@ -1,12 +1,21 @@
 # rotate-secondary-display
 
-This is just a quick-and-dirty set of tools for rotating my second monitor into portrait mode for programming and writing long documents.
+This is just a quick-and-dirty tool for rotating my second monitor into portrait mode for programming and writing long documents.
+It is current only compatible with Windows.
 
-No packages beyond the standard library are required, however, `display64.exe` must be extracted to this directory. It can be downloaded from here: <http://noeld.com/programs.asp?cat=misc#display>
+Noël Danjou's `display` binaries are included in this repository for convenience, however, they can be downloaded [here](http://noeld.com/programs.asp?cat=misc#display) as well.
+
+## Installation
+
+1. Clone or download this repository and save it somewhere safe on your machine.
+2. Install a relatively recent version of Python 3. No packages beyond the Python standard library are required.
 
 ## Usage
 
-1. Download `display.zip` from the link above, and extract its contents to this folder, making sure that `display64.exe` is directly in this directory.
-2. Modify `toggle.py` as needed to customize the display rotations that you would like to toggle between
-3. Run `toggle.py` to test your changes (if any were necessary)
-4. Create a shortcut to run `toggle.py` and place it somewhere convenient
+`toggle.py` optionally takes an argument for the display that you would like to rotate (if it is not display 1)
+This argument can be passed with `-d` or `--display` and should be an integer, with the minimum value being 1.
+
+1. Test `toggle.py` in the terminal.
+2. Optionally edit the script to reflect the rotation angles you need.
+3. Create a shortcut to `toggle.py` including appropriate arguments
+4. Place the shortcut on your desktop or taskbar, and maybe give it an icon!
